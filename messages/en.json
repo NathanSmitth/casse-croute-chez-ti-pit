@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "Casse-Croûte chez Ti-Pit — Poutine & burgers in Val-d'Or",
+    "description": "Pepper poutine, quarter-pound burgers and homemade fries in Val-d'Or. Sunny terrace, dine-in or takeout. Call (819) 825-1517.",
+    "ogTagline": "Poutine, burgers & homemade fries",
+    "ogLocation": "Val-d'Or, Quebec"
+  },
+  "nav": {
+    "menu": "Menu",
+    "dishes": "Dishes",
+    "findUs": "Find us"
+  },
+  "header": {
+    "skip": "Skip to content",
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "call": "Call",
+    "callAria": "Call Casse-Croûte chez Ti-Pit at {phone}",
+    "facebook": "Casse-Croûte chez Ti-Pit on Facebook",
+    "language": "Choose language"
+  },
+  "callBar": {
+    "label": "Call now"
+  },
+  "payment": {
+    "cashOnly": "Cash only",
+    "atm": "ATM on site",
+    "full": "Cash only — ATM on site"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "daysShort": {
+    "monday": "Mon",
+    "tuesday": "Tue",
+    "wednesday": "Wed",
+    "thursday": "Thu",
+    "friday": "Fri",
+    "saturday": "Sat",
+    "sunday": "Sun"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "A Val-d'Or classic",
+      "headingTop": "Casse-Croûte",
+      "headingChez": "chez",
+      "headingName": "Ti-Pit",
+      "tagline": "Poutine, burgers & homemade fries. Sunny terrace.",
+      "ctaMenu": "See the menu",
+      "ctaCall": "Call",
+      "imageAlt": "Casse-Croûte chez Ti-Pit on 3e Avenue in Val-d'Or, with its mint-green roof and walk-up takeout window",
+      "rating": "{rating} on Google · {count} reviews",
+      "services": "Dine-in · Terrace · Takeout",
+      "area": "3e Avenue, Val-d'Or"
+    },
+    "dishes": {
+      "eyebrow": "The ones everybody orders",
+      "heading": "Our must-haves",
+      "intro": "Fries cut right here, fresh cheese curds that squeak, and portions that actually fill you up.",
+      "cta": "See the full menu",
+      "listLabel": "Signature dishes",
+      "items": {
+        "burgerQuart": {
+          "name": "Quarter-pound burger, all dressed",
+          "blurb": "A quarter-pound patty on a giant bun.",
+          "alt": "All-dressed quarter-pound burger on a big bun at Casse-Croûte chez Ti-Pit"
+        },
+        "poutineReguliere": {
+          "name": "Classic poutine",
+          "blurb": "Homemade fries, fresh cheese curds, brown gravy.",
+          "alt": "Classic poutine with homemade fries, fresh cheese curds and brown gravy at Ti-Pit in Val-d'Or"
+        },
+        "poutinePoivre": {
+          "name": "Pepper poutine",
+          "blurb": "The classic, smothered in peppercorn sauce.",
+          "alt": "Poutine topped with peppercorn sauce, cheese curds and homemade fries"
+        },
+        "hotDogGarni": {
+          "name": "All-dressed hot dog",
+          "blurb": "With lettuce and tomato, the way it should be.",
+          "alt": "Hot dog dressed with lettuce and tomato at Casse-Croûte chez Ti-Pit"
+        },
+        "pogo": {
+          "name": "Pogo",
+          "blurb": "Golden, crispy, all the mustard you want.",
+          "alt": "Golden corn dog on a stick with a line of mustard"
+        },
+        "fritesMaison": {
+          "name": "Homemade fries",
+          "blurb": "Cut on site, fried golden.",
+          "alt": "Cone of golden homemade fries cut on site at Ti-Pit"
+        }
+      }
+    },
+    "reviews": {
+      "eyebrow": "What locals are saying",
+      "heading": "What Val-d'Or customers say",
+      "count": "{count} Google reviews",
+      "source": "Google review",
+      "localGuide": "Local Guide",
+      "listLabel": "Customer reviews",
+      "seeAll": "See all reviews on Google",
+      "ctaHeading": "Getting hungry?",
+      "ctaBody": "Call ahead for takeout, or come grab a seat on the terrace.",
+      "ctaButton": "Call"
+    },
+    "findUs": {
+      "eyebrow": "Come see us",
+      "heading": "Find us",
+      "hoursLabel": "Opening hours",
+      "boardTitle": "At the window",
+      "today": "Today",
+      "openNow": "Open now",
+      "closedNow": "Closed now",
+      "closed": "Closed",
+      "hoursTbc": "Hours to be confirmed — give us a quick call before you come.",
+      "locationLabel": "Address",
+      "areaNote": "Downtown Val-d'Or",
+      "directions": "Directions",
+      "mapTitle": "Map: Casse-Croûte chez Ti-Pit, 163, 3e Avenue, Val-d'Or",
+      "callLabel": "To order",
+      "callBody": "Dine-in, terrace and takeout",
+      "callCta": "Call",
+      "callNote": "No online ordering: one phone call and we'll take care of the rest."
+    }
+  },
+  "menuPage": {
+    "metaTitle": "Menu – poutine and burgers",
+    "metaDescription": "The Casse-Croûte chez Ti-Pit menu in Val-d'Or: poutine, quarter-pound burgers, hot dogs, pogos and homemade fries. Order at (819) 825-1517.",
+    "eyebrow": "Made right here in Val-d'Or",
+    "heading": "Our menu",
+    "subheading": "Poutine, burgers, hot dogs and homemade fries. To order, just give us a call.",
+    "categoriesLabel": "Menu categories",
+    "placeholderNote": "Temporary menu and prices, for reference only. Call us for exact prices.",
+    "disclaimer": "Prices subject to change without notice. Taxes extra.",
+    "ctaHeading": "Ready to order?",
+    "ctaBody": "No online ordering: call us and it'll be ready for takeout.",
+    "ctaButton": "Call"
+  },
+  "marquee": {
+    "pause": "Pause scrolling",
+    "play": "Resume scrolling"
+  },
+  "footer": {
+    "tagline": "Poutine, burgers and homemade fries on 3e Avenue. Sunny terrace.",
+    "explore": "Explore",
+    "hours": "Hours",
+    "findUs": "Find us",
+    "directions": "Directions →",
+    "builtBy": "Built with care by"
+  },
+  "notFound": {
+    "metaTitle": "Page not found",
+    "eyebrow": "Error 404",
+    "heading": "Oops! This page left with the fries.",
+    "body": "The page you're looking for doesn't exist or has moved. The poutine, though, is still here.",
+    "home": "Back to home",
+    "menu": "See the menu",
+    "call": "Call"
+  }
+}

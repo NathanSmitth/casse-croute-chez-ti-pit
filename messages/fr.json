@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "Casse-Croûte chez Ti-Pit — Poutine & burgers à Val-d'Or",
+    "description": "Poutine au poivre, burger ¼ de livre et frites maison à Val-d'Or. Terrasse au soleil, sur place ou pour emporter. Appelez au (819) 825-1517.",
+    "ogTagline": "Poutine, burgers & frites maison",
+    "ogLocation": "Val-d'Or, Québec"
+  },
+  "nav": {
+    "menu": "Menu",
+    "dishes": "Plats",
+    "findUs": "Nous trouver"
+  },
+  "header": {
+    "skip": "Aller au contenu",
+    "mainNav": "Navigation principale",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "call": "Appeler",
+    "callAria": "Appeler le Casse-Croûte chez Ti-Pit au {phone}",
+    "facebook": "Casse-Croûte chez Ti-Pit sur Facebook",
+    "language": "Choisir la langue"
+  },
+  "callBar": {
+    "label": "Appeler"
+  },
+  "payment": {
+    "cashOnly": "Argent comptant seulement",
+    "atm": "guichet automatique sur place",
+    "full": "Argent comptant seulement — guichet automatique sur place"
+  },
+  "days": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  },
+  "daysShort": {
+    "monday": "Lun.",
+    "tuesday": "Mar.",
+    "wednesday": "Mer.",
+    "thursday": "Jeu.",
+    "friday": "Ven.",
+    "saturday": "Sam.",
+    "sunday": "Dim."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Un classique de Val-d'Or",
+      "headingTop": "Casse-Croûte",
+      "headingChez": "chez",
+      "headingName": "Ti-Pit",
+      "tagline": "Poutine, burgers & frites maison. Terrasse au soleil.",
+      "ctaMenu": "Voir le menu",
+      "ctaCall": "Appeler",
+      "imageAlt": "Le Casse-Croûte chez Ti-Pit sur la 3e Avenue à Val-d'Or, avec son toit vert menthe et son comptoir pour emporter",
+      "rating": "{rating} sur Google · {count} avis",
+      "services": "Salle à manger · Terrasse · Pour emporter",
+      "area": "3e Avenue, Val-d'Or"
+    },
+    "dishes": {
+      "eyebrow": "Ça se commande les yeux fermés",
+      "heading": "Nos incontournables",
+      "intro": "Des frites coupées ici, du fromage en grains qui fait couic-couic et des portions qui remplissent pour vrai.",
+      "cta": "Voir le menu complet",
+      "listLabel": "Plats signature",
+      "items": {
+        "burgerQuart": {
+          "name": "Hamburger ¼ de livre garni",
+          "blurb": "Une galette d'un quart de livre sur un pain géant.",
+          "alt": "Hamburger d'un quart de livre garni, servi sur un gros pain au Casse-Croûte chez Ti-Pit"
+        },
+        "poutineReguliere": {
+          "name": "Poutine régulière",
+          "blurb": "Frites maison, fromage en grains frais, sauce brune.",
+          "alt": "Poutine régulière : frites maison, fromage en grains frais et sauce brune, chez Ti-Pit à Val-d'Or"
+        },
+        "poutinePoivre": {
+          "name": "Poutine au poivre",
+          "blurb": "La même, nappée de sauce au poivre.",
+          "alt": "Poutine nappée de sauce au poivre, avec fromage en grains et frites maison"
+        },
+        "hotDogGarni": {
+          "name": "Hot dog garni",
+          "blurb": "Avec laitue et tomates, comme il se doit.",
+          "alt": "Hot dog garni de laitue et de tomates au Casse-Croûte chez Ti-Pit"
+        },
+        "pogo": {
+          "name": "Pogo",
+          "blurb": "Doré, croustillant, moutarde à volonté.",
+          "alt": "Pogo doré sur bâton avec un trait de moutarde"
+        },
+        "fritesMaison": {
+          "name": "Frites maison",
+          "blurb": "Coupées sur place, dorées à point.",
+          "alt": "Cornet de frites maison dorées, coupées sur place chez Ti-Pit"
+        }
+      }
+    },
+    "reviews": {
+      "eyebrow": "Les gens d'ici en parlent",
+      "heading": "Ce que nos clients disent",
+      "count": "{count} avis Google",
+      "source": "Avis Google",
+      "localGuide": "Local Guide",
+      "listLabel": "Avis de clients",
+      "seeAll": "Voir tous les avis sur Google",
+      "ctaHeading": "Une p'tite faim?",
+      "ctaBody": "Appelez pour commander pour emporter, ou venez vous asseoir sur la terrasse.",
+      "ctaButton": "Appeler"
+    },
+    "findUs": {
+      "eyebrow": "Passez nous voir",
+      "heading": "Nous trouver",
+      "hoursLabel": "Heures d'ouverture",
+      "boardTitle": "Au comptoir",
+      "today": "Aujourd'hui",
+      "openNow": "Ouvert en ce moment",
+      "closedNow": "Fermé en ce moment",
+      "closed": "Fermé",
+      "hoursTbc": "Heures à confirmer — un petit appel avant de passer.",
+      "locationLabel": "Adresse",
+      "areaNote": "Centre-ville de Val-d'Or",
+      "directions": "Itinéraire",
+      "mapTitle": "Carte : Casse-Croûte chez Ti-Pit, 163, 3e Avenue, Val-d'Or",
+      "callLabel": "Pour commander",
+      "callBody": "Salle à manger, terrasse et pour emporter",
+      "callCta": "Appeler",
+      "callNote": "Pas de commande en ligne : un coup de fil, pis on s'en occupe!"
+    }
+  },
+  "menuPage": {
+    "metaTitle": "Menu – poutines et burgers",
+    "metaDescription": "Le menu du Casse-Croûte chez Ti-Pit à Val-d'Or : poutines, burger ¼ de livre, hot dogs, pogos et frites maison. Commandez au (819) 825-1517.",
+    "eyebrow": "Fait ici, à Val-d'Or",
+    "heading": "Notre menu",
+    "subheading": "Poutines, burgers, hot dogs et frites maison. Pour commander, un simple appel suffit.",
+    "categoriesLabel": "Catégories du menu",
+    "placeholderNote": "Menu et prix temporaires, à titre indicatif. Appelez-nous pour les prix exacts.",
+    "disclaimer": "Les prix peuvent changer sans préavis. Taxes en sus.",
+    "ctaHeading": "Prêt à commander?",
+    "ctaBody": "Pas de commande en ligne : appelez-nous et c'est prêt pour emporter.",
+    "ctaButton": "Appeler"
+  },
+  "marquee": {
+    "pause": "Mettre le défilement en pause",
+    "play": "Reprendre le défilement"
+  },
+  "footer": {
+    "tagline": "Poutine, burgers et frites maison sur la 3e Avenue. Terrasse au soleil.",
+    "explore": "Explorer",
+    "hours": "Heures",
+    "findUs": "Nous trouver",
+    "directions": "Itinéraire →",
+    "builtBy": "Conçu avec soin par"
+  },
+  "notFound": {
+    "metaTitle": "Page introuvable",
+    "eyebrow": "Erreur 404",
+    "heading": "Oups! Cette page est partie avec les frites.",
+    "body": "La page que vous cherchez n'existe pas ou a été déplacée. La poutine, elle, est toujours là.",
+    "home": "Retour à l'accueil",
+    "menu": "Voir le menu",
+    "call": "Appeler"
+  }
+}

@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colours — used as accents on a mostly neutral base */
+  --color-seafoam: #3E7D6E;      /* primary fills (buttons). White text on it: 4.8:1 */
+  --color-seafoam-dark: #2F6458; /* seafoam TEXT (links, eyebrows) on off-white: 6.3:1 */
+  --color-mint: #A9D3C5;         /* soft tints only (15–25%). Never behind white text */
+  --color-ketchup: #D33A2C;      /* red accents (call buttons, active pill, today). White text: 4.76:1 */
+  --color-ketchup-dark: #B82E22; /* hover. White text: 5.9:1 */
+  --color-sun: #F2C230;          /* rating stars only */
+  --color-charcoal: #2E3336;     /* text + footer */
+  --color-charcoal-dark: #23272A;
+  --color-paper: #F6F7F5;        /* page background; cards are white */
+  --color-line: #E3E7E4;         /* 1px borders + dividers */
+
+  /* Typography */
+  --font-heading: var(--font-jakarta), system-ui, sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  /* Motion */
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-hover: cubic-bezier(0.2, 0, 0, 1);
+
+  --animate-rise: rise 700ms var(--ease-out-soft) both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────── */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem; /* clear the fixed header on anchor navigation */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-mint) 60%, white);
+  color: var(--color-charcoal);
+}
+
+/* Focus ring — colour adapts to the surface so it always passes 3:1 */
+:root {
+  --focus: var(--color-seafoam-dark);
+}
+.on-dark {
+  --focus: var(--color-mint);
+}
+/* Seafoam sections: mint is only 2.9:1 on #3E7D6E, white is 4.8:1 */
+.on-green {
+  --focus: #fff;
+}
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* ── Motion ───────────────────────────────────────────────────────────── */
+
+/* Hero load sequence */
+.rise {
+  animation: var(--animate-rise);
+  animation-delay: calc(var(--i, 0) * 80ms + 100ms);
+}
+
+/* Scroll reveal. ScrollReveal.tsx only marks elements that start BELOW the
+   fold as "pending", so nothing is ever hidden without JS or above the fold. */
+[data-reveal="pending"] {
+  opacity: 0;
+  transform: translateY(16px);
+}
+[data-reveal="shown"] {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 600ms var(--ease-out-soft),
+    transform 600ms var(--ease-out-soft);
+}
+
+/* Red buttons sitting on seafoam: a faint white ring + soft dark shadow so the
+   red/green edge reads clean instead of muddy. */
+.red-on-green {
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 0.28),
+    0 8px 20px -8px rgb(15 35 30 / 0.55);
+}
+
+/* ── Marquee ──────────────────────────────────────────────────────────── */
+
+.marquee {
+  overflow: hidden;
+  padding-block: 0.5rem 1.25rem; /* room for hover shadows */
+  mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  /* Linear is intentional here: a continuous conveyor, not a UI transition */
+  animation: marquee var(--marquee-duration, 45s) linear infinite;
+}
+
+.marquee-list {
+  display: flex;
+  flex-shrink: 0;
+  gap: 1.25rem;
+  padding-right: 1.25rem;
+  margin: 0;
+  list-style: none;
+}
+
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track,
+.marquee[data-paused="true"] .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+
+/* ── Utilities ────────────────────────────────────────────────────────── */
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* ── Reduced motion ───────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  .rise { animation: none; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; }
+
+  .marquee {
+    overflow-x: auto;
+    mask-image: none;
+    -webkit-mask-image: none;
+    scroll-snap-type: x mandatory;
+    padding-inline: 1rem;
+  }
+  .marquee-track { animation: none; }
+  .marquee-list[aria-hidden="true"] { display: none; }
+  .marquee-list > li { scroll-snap-align: start; }
+  .marquee-toggle { display: none; }
+
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
